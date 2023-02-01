@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(255, 228, 196, 0.71);
+}
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    color: rgb(167, 21, 21);
+    background-color: rgb(224, 138, 77);
+    text-shadow: 2px 2px 1px #333, -1px -1px 0 rgb(231, 122, 122);
+}
+
+.main {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2vw;
+    font-weight: 1000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 10px;
+    color:whitesmoke;
+    padding: 10px;
+    background: radial-gradient(rgb(217, 50, 50), rgb(167, 21, 21));
+    border:  rgb(167, 21, 21);
+    cursor: pointer;
+}
+
+button:hover {
+    background: radial-gradient(rgba(233, 149, 149, 0.797), rgb(244, 78, 78));
+    transform: translate(0, 0.25em);
+    color: rgb(103, 12, 12);
+  
+  }
+
+button:active {
+    background:rgb(71, 4, 4);
+    border:  rgb(32, 2, 2) 3px solid;
+    color:rgb(32, 2, 2);
+}
+
+.label {
+    color: rgb(86, 26, 4);
+    font-weight: 900;
+}
+
+p {
+    color: red;
+}
+
+h2 {
+    color: brown;
+}
