@@ -20,7 +20,7 @@ function primeCheck (num1) {
         }
         
         else {
-            for (let i=2; i<(num1/2); i++) {
+            for (let i=2; i<=(Math.sqrt(num1)); i++) {
                if ((num1%i) == 0) {
                    h3Title.style.color = 'darkgreen'
                    capibara.style.opacity = '0.1'
